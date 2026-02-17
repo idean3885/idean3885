@@ -1,18 +1,22 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fidean3885&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+## AI 기반 개발 방법론을 만드는 백엔드 개발자
 
-### language
-![java](https://shields.io/badge/Java-junior-green?style=plastic&logo=Java)
+AI가 코드를 짜는 시대에, 사람은 프로세스를 설계해야 한다고 생각합니다.
+반복되는 개발 흐름을 자동화하고, 방법론을 제품처럼 다루는 실험을 하고 있습니다.
 
-### Git Usage
-[![idean3885's GitHub stats](https://github-readme-stats.vercel.app/api?username=idean3885)](https://github.com/anuraghazra/github-readme-stats)
+### Tech Stack
 
-### Commit type
-|type|desc|
-|--|--|
-|feat|새로운 기능 추가|
-|fix|버그 수정|
-|docs|문서 수정|
-|style|코드 포맷팅, 세미콜론 누락, 코드 변경이 없는 경우|
-|refactor|코드 리팩토링|
-|test|테스트 코드, 리팩토링 테스트 코드 추가|
-|chore|빌드 업무 수정, 패키지 매니저 수정|
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Jekyll](https://img.shields.io/badge/Jekyll-CC0000?style=flat-square&logo=jekyll&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+### Blog
+
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+### GitHub Stats
+
+[![idean3885's GitHub stats](https://github-readme-stats.vercel.app/api?username=idean3885&show_icons=true&theme=default)](https://github.com/idean3885)
