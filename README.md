@@ -15,7 +15,7 @@ AI가 코드를 짜는 시대에, 사람은 프로세스를 설계해야 한다�
 ### Blog
 
 <!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+- [AI에게 코드를 맡기고 나서 달라진 일하는 방식](https://idean3885.github.io/posts/ai-changed-my-workflow/)<!-- BLOG-POST-LIST:END -->
 
 ### GitHub Stats
 
