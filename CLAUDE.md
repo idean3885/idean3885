@@ -1,0 +1,21 @@
+# CLAUDE.md
+
+GitHub 프로필 README 레포
+
+## 마크다운 줄바꿈 규칙 (Semantic Line Breaks)
+
+**원칙:** [Semantic Line Breaks(sembr.org)](https://sembr.org/) 기반.
+문장 단위로 줄바꿈하여 소스 가독성과 git diff 품질을 확보한다.
+
+**단문/소개/README류 (스캔형 텍스트):**
+- 문장마다 빈 줄(`\n\n`)로 분리하여 별도 단락으로 렌더링
+- 한 문장이 길면 절(clause) 단위로 줄바꿈 (쉼표, 세미콜론 뒤)
+- 한 줄 목표: 한글 기준 25-35자 (A4 12pt 기준 한 줄 이내)
+
+**공통:**
+- 소스 한 줄 80자 이내 권장 (링크, 테이블, 뱃지 등은 예외)
+- 단일 개행은 마크다운에서 무시됨 — 시각적 분리가 필요하면 반드시 빈 줄 사용
+
+## 자동화
+
+- `.github/workflows/blog-post.yml`: 매일 블로그 RSS에서 최신 글 가져와 README 갱신
