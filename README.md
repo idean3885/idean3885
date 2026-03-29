@@ -17,8 +17,6 @@ AI 도구를 활용한 개발 흐름을 실험하며,
 
 - [claude-devex](https://github.com/idean3885/claude-devex) — AI 기반 개발 사이클 자동화 도구
 - [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) — 의사결정·설계·문서·구현 4축 교차 검증 에이전트
-- [claude-content-publisher](https://github.com/idean3885/claude-content-publisher) — 위키→블로그 콘텐츠 발행 플러그인
-- [claude-usage-tracker](https://github.com/idean3885/claude-usage-tracker) — 작업 단위 토큰 사용량 추적 플러그인
 - [claude-slack-to-notion](https://github.com/dykim-base-project/claude-slack-to-notion) — Slack 스레드를 Notion으로 정리하는 MCP 플러그인
 
 ### Blog
