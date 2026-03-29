@@ -16,6 +16,9 @@ AI 도구를 활용한 개발 흐름을 실험하며,
 ### Projects
 
 - [claude-devex](https://github.com/idean3885/claude-devex) — AI 기반 개발 사이클 자동화 도구
+- [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) — 의사결정·설계·문서·구현 4축 교차 검증 에이전트
+- [claude-content-publisher](https://github.com/idean3885/claude-content-publisher) — 위키→블로그 콘텐츠 발행 플러그인
+- [claude-usage-tracker](https://github.com/idean3885/claude-usage-tracker) — 작업 단위 토큰 사용량 추적 플러그인
 - [claude-slack-to-notion](https://github.com/dykim-base-project/claude-slack-to-notion) — Slack 스레드를 Notion으로 정리하는 MCP 플러그인
 
 ### Blog
@@ -24,3 +27,5 @@ AI 도구를 활용한 개발 흐름을 실험하며,
 
 - [AI에게 코드를 맡기고 나서 달라진 일하는 방식](https://idean3885.github.io/posts/ai-changed-my-workflow/)
 - [코드에서 사고로 — AI 시대, 개발자의 역할 재정의](https://idean3885.github.io/posts/from-coding-to-thinking/)
+- [AI 협업에서의 교차 검증 — 속도가 아닌 판단을 자동화하기](https://idean3885.github.io/posts/cross-verification-in-ai-collaboration/)
+- [미터링 배치를 만들고 나서야 알게 된 것들 — 배치 전략과 패턴에 이름 붙이기](https://idean3885.github.io/posts/batch-patterns-naming/)
