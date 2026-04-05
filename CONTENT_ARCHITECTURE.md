@@ -14,9 +14,9 @@
 
 | 표면 | 위치 | 역할 | 대상 |
 |------|------|------|------|
-| **GitHub Profile README** | [idean3885/idean3885](https://github.com/idean3885/idean3885) | 허브 — 30초 요약, 진입점 | GitHub 방문자 |
-| **Blog Repo About** | blog.idean.me repo settings | 메타데이터 — 검색/탐색 노출 | GitHub 검색 |
-| **Blog About (홈 소개 섹션)** | [홈 페이지 소개 영역](https://blog.idean.me) | 깊이 — 자기소개, 포커스 영역 안내 | 블로그 방문자 |
+| **GitHub Profile README** | [idean3885/idean3885](https://github.com/idean3885/idean3885) | 허브 - 30초 요약, 진입점 | GitHub 방문자 |
+| **Blog Repo About** | blog.idean.me repo settings | 메타데이터 - 검색/탐색 노출 | GitHub 검색 |
+| **Blog About (홈 소개 섹션)** | [홈 페이지 소개 영역](https://blog.idean.me) | 깊이 - 자기소개, 포커스 영역 안내 | 블로그 방문자 |
 
 ## 정보 흐름 (Information Flow)
 
