@@ -23,9 +23,9 @@ AI 도구를 활용한 개발 흐름을 실험하며,
 
 ### Blog
 
-[idean3885.github.io](https://idean3885.github.io)
+[blog.idean.me](https://blog.idean.me)
 
-- [AI에게 코드를 맡기고 나서 달라진 일하는 방식](https://idean3885.github.io/posts/ai-changed-my-workflow/)
-- [코드에서 사고로 — AI 시대, 개발자의 역할 재정의](https://idean3885.github.io/posts/from-coding-to-thinking/)
-- [AI 협업에서의 교차 검증 — 속도가 아닌 판단을 자동화하기](https://idean3885.github.io/posts/cross-verification-in-ai-collaboration/)
-- [미터링 배치를 만들고 나서야 알게 된 것들 — 배치 전략과 패턴에 이름 붙이기](https://idean3885.github.io/posts/batch-patterns-naming/)
+- [AI에게 코드를 맡기고 나서 달라진 일하는 방식](https://blog.idean.me/posts/ai-changed-my-workflow/)
+- [코드에서 사고로 — AI 시대, 개발자의 역할 재정의](https://blog.idean.me/posts/from-coding-to-thinking/)
+- [AI 협업에서의 교차 검증 — 속도가 아닌 판단을 자동화하기](https://blog.idean.me/posts/cross-verification-in-ai-collaboration/)
+- [미터링 배치를 만들고 나서야 알게 된 것들 — 배치 전략과 패턴에 이름 붙이기](https://blog.idean.me/posts/batch-patterns-naming/)
