@@ -1,6 +1,6 @@
 ## 백엔드 개발자
 
-2019년부터 백엔드 개발을 해온 7년차 개발자입니다.
+2019년부터 백엔드 개발을 해온 개발자입니다.
 Kubernetes 기반 멀티 테넌시 서비스를 설계·운영하며,
 앱·GPU 클라우드 환경에서 인프라와 서비스를 함께 다루고 있습니다.
 
@@ -13,7 +13,7 @@ AI 도구를 활용한 개발 흐름을 실험하며,
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ### Projects
 
