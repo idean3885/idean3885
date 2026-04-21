@@ -17,9 +17,9 @@ AI 도구를 활용한 개발 흐름을 실험하며,
 
 ### Projects
 
-- [trip-planner](https://github.com/idean3885/trip-planner) - 우리의 여행 앱 만들기 — React + GitHub Pages 모바일 웹
+- [trip-planner](https://github.com/idean3885/trip-planner) - 우리의 여행. spec-kit 풀사이클과 하네스를 1인 개발에 적용한 AI 협업 방법론 테스트베드 ([서비스](https://trip.idean.me))
 - [claude-devex](https://github.com/idean3885/claude-devex) - AI 기반 개발 사이클 자동화 도구
-- [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) - 의사결정·설계·문서·구현 4축 교차 검증 에이전트
+- [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) - 의사결정, 설계, 문서, 구현 4축 교차 검증 에이전트
 - [claude-slack-to-notion](https://github.com/idean3885/claude-slack-to-notion) - Slack 스레드를 Notion으로 정리하는 MCP 플러그인
 
 ### Blog
