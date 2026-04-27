@@ -1,32 +1,43 @@
 ## 백엔드 개발자
 
-2019년부터 백엔드 개발을 해온 개발자입니다.
-Kubernetes 기반 멀티 테넌시 서비스를 설계·운영하며,
-앱·GPU 클라우드 환경에서 인프라와 서비스를 함께 다루고 있습니다.
+팀 상황 안에서의 트레이드오프와 정량 의사결정에 관심이 많은
+7년차 백엔드 개발자입니다.
 
-AI 도구를 활용한 개발 흐름을 실험하며,
-그 과정을 블로그에 기록하고 있습니다.
+SDD·ADR로 의사결정 흔적을 남기며,
+GPU 기반 PaaS·시계열 파이프라인·자동화 시스템 사례를
+정리하고 있습니다.
+
+이 과정에서 만든 도구와 글을 블로그에 기록합니다.
 
 ### Tech Stack
 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-### Projects
+### 주요 글
 
-- [trip-planner](https://github.com/idean3885/trip-planner) - 우리의 여행. spec-kit 풀사이클과 하네스를 1인 개발에 적용한 AI 협업 방법론 테스트베드 ([서비스](https://trip.idean.me))
-- [claude-devex](https://github.com/idean3885/claude-devex) - AI 기반 개발 사이클 자동화 도구
-- [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) - 의사결정, 설계, 문서, 구현 4축 교차 검증 에이전트
+의사결정과 트레이드오프의 흔적을 정리한 글들입니다.
+
+- [미터링 배치 저장 전략 통일 - UPSERT → DELETE+INSERT 전환](https://blog.idean.me/posts/batch-storage-upsert-to-delete-insert/)
+- [MySQL 파티셔닝 도입기 - JPA 복합 키 전환부터 시간 독립 DDL까지](https://blog.idean.me/posts/mysql-partitioning-jpa-composite-key/)
+- [Expand-and-Contract 패턴 - 무중단 DB 스키마 변경을 3단계 PR로 분할하기](https://blog.idean.me/posts/expand-and-contract-pattern/)
+- [시계열 수집의 쓰기 경합 - 5분 주기 시스템에서 동시성을 해결한 방법](https://blog.idean.me/posts/timeseries-write-contention/)
+- [사용자 도메인 인증서 자동 발급 - certbot 학습에서 ACME4j 구현까지](https://blog.idean.me/posts/domain-ssl-automation-certbot-to-acme4j/)
+
+### 도구·방법론
+
+방법론과 도구를 직접 만들며 검증한 결과물입니다.
+
+- [trip-planner](https://github.com/idean3885/trip-planner) - spec-kit 풀사이클과 하네스를 1인 개발에 적용한 테스트베드 ([서비스](https://trip.idean.me))
+- [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) - 의사결정·설계·문서·구현 4축 교차 검증 에이전트
+- [claude-devex](https://github.com/idean3885/claude-devex) - 개발 사이클 자동화 도구
 - [claude-slack-to-notion](https://github.com/idean3885/claude-slack-to-notion) - Slack 스레드를 Notion으로 정리하는 MCP 플러그인
 
 ### Blog
 
 [blog.idean.me](https://blog.idean.me)
-
-- [AI에게 코드를 맡기고 나서 달라진 일하는 방식](https://blog.idean.me/posts/ai-changed-my-workflow/)
-- [코드에서 사고로 - AI 시대, 개발자의 역할 재정의](https://blog.idean.me/posts/from-coding-to-thinking/)
-- [AI 협업에서의 교차 검증 - 속도가 아닌 판단을 자동화하기](https://blog.idean.me/posts/cross-verification-in-ai-collaboration/)
-- [미터링 배치를 만들고 나서야 알게 된 것들 - 배치 전략과 패턴에 이름 붙이기](https://blog.idean.me/posts/batch-patterns-naming/)
