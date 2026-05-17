@@ -1,13 +1,12 @@
 ## 백엔드 개발자
 
-팀 상황 안에서의 트레이드오프와 정량 의사결정에 관심이 많은
-7년차 백엔드 개발자입니다.
+7년차 백엔드 개발자로,
+Spring Boot · Kubernetes 기반 클라우드 서비스를 설계하고 운영하고 있습니다.
 
-SDD·ADR로 의사결정 흔적을 남기며,
-GPU 기반 PaaS·시계열 파이프라인·자동화 시스템 사례를
-정리하고 있습니다.
+Kubernetes 기반 PaaS, GPU 멀티테넌시 서비스, 시계열 데이터 파이프라인,
+인증서 자동화 같은 사례를 다룹니다.
 
-이 과정에서 만든 도구와 글을 블로그에 기록합니다.
+마주친 의사결정과 사례는 블로그에 기록합니다.
 
 ### Tech Stack
 
@@ -21,22 +20,20 @@ GPU 기반 PaaS·시계열 파이프라인·자동화 시스템 사례를
 
 ### 주요 글
 
-의사결정과 트레이드오프의 흔적을 정리한 글들입니다.
+운영 사례와 의사결정을 정리한 글입니다.
 
 - [미터링 배치 저장 전략 통일 - UPSERT → DELETE+INSERT 전환](https://blog.idean.me/posts/batch-storage-upsert-to-delete-insert/)
 - [MySQL 파티셔닝 도입기 - JPA 복합 키 전환부터 시간 독립 DDL까지](https://blog.idean.me/posts/mysql-partitioning-jpa-composite-key/)
-- [Expand-and-Contract 패턴 - 무중단 DB 스키마 변경을 3단계 PR로 분할하기](https://blog.idean.me/posts/expand-and-contract-pattern/)
 - [시계열 수집의 쓰기 경합 - 5분 주기 시스템에서 동시성을 해결한 방법](https://blog.idean.me/posts/timeseries-write-contention/)
 - [사용자 도메인 인증서 자동 발급 - certbot 학습에서 ACME4j 구현까지](https://blog.idean.me/posts/domain-ssl-automation-certbot-to-acme4j/)
 
-### 도구·방법론
+### 사이드 프로젝트
 
-방법론과 도구를 직접 만들며 검증한 결과물입니다.
+백엔드 본업 외 만든 AI 개발 도구입니다.
 
-- [trip-planner](https://github.com/idean3885/trip-planner) - spec-kit 풀사이클과 하네스를 1인 개발에 적용한 테스트베드 ([서비스](https://trip.idean.me))
 - [claude-cross-verify](https://github.com/idean3885/claude-cross-verify) - 의사결정·설계·문서·구현 4축 교차 검증 에이전트
 - [claude-devex](https://github.com/idean3885/claude-devex) - 개발 사이클 자동화 도구
-- [claude-slack-to-notion](https://github.com/idean3885/claude-slack-to-notion) - Slack 스레드를 Notion으로 정리하는 MCP 플러그인
+- [claude-slack-to-notion](https://github.com/idean3885/claude-slack-to-notion) - Slack 스레드 → Notion MCP 플러그인
 
 ### Blog
 
