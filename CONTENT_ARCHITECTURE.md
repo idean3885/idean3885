@@ -96,13 +96,13 @@ Blog Repo About (메타데이터)
 - 섹션 제목·부제로 가중치를 명시 (면접관이 본업과 혼동하지 않도록)
 - 결과 미완성 자산은 채용 검토 시점까지 큐레이션에서 제외 (career-docs ADR-024 정신 — 외부 자산은 유지하되 채용 패키지 노출 절제)
 
-## 현황 (Last Updated: 2026-05-17)
+## 현황 (Last Updated: 2026-05-18)
 
 | 표면 | 상태 | 미완료 항목 |
 |------|------|-------------|
-| GitHub Profile README | 갱신 진행 (사상 회귀 reframe) | 한 줄 / 사이드 프로젝트 / 주요 글 큐레이션 |
+| GitHub Profile README | 주요 글 큐레이션 갱신 (#32, 응축 마이그레이션 반영) | - |
 | Blog Repo About | 완료 | - |
-| Blog About (홈 소개 섹션) | 갱신 진행 (#30) | _config.yml tagline·description + index.md intro·카테고리 설명·추천 글 부제 |
+| Blog About (홈 소개 섹션) | 완료 (#30) | - |
 
 ### 2026-05-17 reframe 사유
 
@@ -112,6 +112,12 @@ Blog Repo About (메타데이터)
 - **사이드 프로젝트 정책 도입**: 도구·방법론 섹션 4/4가 AI 도구라 본질과 어긋남. trip-planner는 ADR-024(결과 미완성·기획자 대체 신호) + 사용자 자기 평가 반영하여 Profile README 큐레이션에서 제외. AI 도구 3개는 부수 위치 명시
 - **주요 글 축약**: 5개 → 4개 (Expand-and-Contract는 방법론 색채라 운영 사례만 유지). 신규 블로그 포스트 3개는 블로그 자체 정리 후 재평가
 - **잔존 부위 일괄 정정** (#30, 2026-05-17): L18 자기 평가형 회피·L82 검증 가능한 약속만 원칙이 표면 끝까지 적용되지 않아 README L9 내러티브·블로그 _config tagline/description·index.md intro·카테고리 설명·추천 글 부제까지 잔존 표현이 남아 있었음. 두 레포 PR 로 일괄 정정. 내러티브에 "공부한 것"·"꾸준히" 톤을 추가하여 단편성 해소
+
+### 2026-05-18 주요 글 큐레이션 갱신 사유 (#32)
+
+- **응축 마이그레이션 반영**: 블로그 시리즈 7개를 시리즈당 신규 1편으로 응축 완료. 기존 README 주요 글 4개 중 3개가 응축 흡수로 URL 깨짐 (batch-storage-upsert-to-delete-insert / timeseries-write-contention / domain-ssl-automation-certbot-to-acme4j)
+- **신규 큐레이션**: MySQL 파티셔닝(보존) + 미터링 배치 시스템 설계(응축) + 미터링 용량 세 제약(보존, 의사결정 깊이) + 인증서 자동화(응축). 운영 사례 중심, 면접 빈출 키워드 + 의사결정 깊이 균형
+- **블로그 톤 통일**: 블로그 전체 포스트 합쇼체 통일 후속 작업 (idean3885.github.io PR #300)
 
 ## 워크플로우
 
