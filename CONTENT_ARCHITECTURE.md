@@ -100,7 +100,7 @@ Blog Repo About (메타데이터)
 
 | 표면 | 상태 | 미완료 항목 |
 |------|------|-------------|
-| GitHub Profile README | 주요 글 큐레이션 갱신 (#32, 응축 마이그레이션 반영) | - |
+| GitHub Profile README | 주요 글 큐레이션 갱신 (#32, 압축 마이그레이션 반영) | - |
 | Blog Repo About | 완료 | - |
 | Blog About (홈 소개 섹션) | 완료 (#30) | - |
 
@@ -115,8 +115,8 @@ Blog Repo About (메타데이터)
 
 ### 2026-05-18 주요 글 큐레이션 갱신 사유 (#32)
 
-- **응축 마이그레이션 반영**: 블로그 시리즈 7개를 시리즈당 신규 1편으로 응축 완료. 기존 README 주요 글 4개 중 3개가 응축 흡수로 URL 깨짐 (batch-storage-upsert-to-delete-insert / timeseries-write-contention / domain-ssl-automation-certbot-to-acme4j)
-- **신규 큐레이션**: MySQL 파티셔닝(보존) + 미터링 배치 시스템 설계(응축) + 미터링 용량 세 제약(보존, 의사결정 깊이) + 인증서 자동화(응축). 운영 사례 중심, 면접 빈출 키워드 + 의사결정 깊이 균형
+- **압축 마이그레이션 반영**: 블로그 시리즈 7개를 시리즈당 신규 1편으로 압축 완료. 기존 README 주요 글 4개 중 3개가 압축 흡수로 URL 깨짐 (batch-storage-upsert-to-delete-insert / timeseries-write-contention / domain-ssl-automation-certbot-to-acme4j)
+- **신규 큐레이션**: MySQL 파티셔닝(보존) + 미터링 배치 시스템 설계(압축) + 미터링 용량 세 제약(보존, 의사결정 깊이) + 인증서 자동화(압축). 운영 사례 중심, 면접 빈출 키워드 + 의사결정 깊이 균형
 - **블로그 톤 통일**: 블로그 전체 포스트 합쇼체 통일 후속 작업 (idean3885.github.io PR #300)
 
 ## 워크플로우
