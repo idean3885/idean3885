@@ -13,7 +13,7 @@
 ### 본질·부가 위계
 
 - **본질**: 백엔드 개발 (Spring Boot · Kubernetes · 운영 사례)
-- **부가**: SDD·ADR·AI 도구 — 본문 PAAR 항목과 사이드 프로젝트에서만 노출. 자기소개 한 줄에서는 제외
+- **부가**: SDD·ADR·AI 도구. 본문 PAAR 항목과 사이드 프로젝트에서만 노출하고 자기소개 한 줄에서는 제외
 
 자기소개·정체성 표면에서 메타-역량(트레이드오프·SDD·ADR) 자기 평가형 표현은 회피한다. 인터미디에이트 7년차 레벨에 부담이며, 면접관(특히 대기업·대용량 트래픽 기업) 시각에서 본질 직무 정체성을 가린다.
 
@@ -34,9 +34,9 @@
 
 | 표면 | 위치 | 역할 | 대상 |
 |------|------|------|------|
-| **GitHub Profile README** | [idean3885/idean3885](https://github.com/idean3885/idean3885) | 허브 — 직무 정체성 + 운영 사례 진입점 | GitHub 방문자 |
-| **Blog Repo About** | blog.idean.me repo settings | 메타데이터 — 검색·탐색 노출 | GitHub 검색 |
-| **Blog About (홈 소개 섹션)** | [홈 페이지 소개 영역](https://blog.idean.me) | 깊이 — 자기소개, 포커스 영역 안내 | 블로그 방문자 |
+| **GitHub Profile README** | [idean3885/idean3885](https://github.com/idean3885/idean3885) | 허브 - 직무 정체성 + 운영 사례 진입점 | GitHub 방문자 |
+| **Blog Repo About** | blog.idean.me repo settings | 메타데이터 - 검색·탐색 노출 | GitHub 검색 |
+| **Blog About (홈 소개 섹션)** | [홈 페이지 소개 영역](https://blog.idean.me) | 깊이 - 자기소개, 포커스 영역 안내 | 블로그 방문자 |
 
 표면 분리 정책 상세는 career-docs ADR-016 참조.
 
@@ -94,20 +94,20 @@ Blog Repo About (메타데이터)
 
 - AI 개발 도구는 **본업(백엔드) 외 부수 위치**로 노출
 - 섹션 제목·부제로 가중치를 명시 (면접관이 본업과 혼동하지 않도록)
-- 결과 미완성 자산은 채용 검토 시점까지 큐레이션에서 제외 (career-docs ADR-024 정신 — 외부 자산은 유지하되 채용 패키지 노출 절제)
+- 결과 미완성 자산은 채용 검토 시점까지 큐레이션에서 제외 (career-docs ADR-024 정신 - 외부 자산은 유지하되 채용 패키지 노출 절제)
 
-## 현황 (Last Updated: 2026-05-18)
+## 현황 (Last Updated: 2026-06-01)
 
 | 표면 | 상태 | 미완료 항목 |
 |------|------|-------------|
-| GitHub Profile README | 주요 글 큐레이션 갱신 (#32, 압축 마이그레이션 반영) | - |
+| GitHub Profile README | Tech Stack 보강 (ArgoCD·Prometheus) + em dash 정합 | - |
 | Blog Repo About | 완료 | - |
 | Blog About (홈 소개 섹션) | 완료 (#30) | - |
 
 ### 2026-05-17 reframe 사유
 
 - **사상 회귀** (career-docs ADR-022, 2026-05-09): 이력서 Summary가 04-23 톤(구체 사실 위주)으로 복원됨. 메타-역량(트레이드오프·SDD·ADR) 자기 평가 표현이 인터미디에이트 7년차 레벨에 부담이라는 본인 판단
-- **본질 정정**: 백엔드 개발자가 본질, SDD·ADR은 부가. 사용자 명시 — "대기업·대용량 트래픽 기업은 SDD 도입 필요성을 못 느낄 수 있음. spec-kit 도입 사례(호스팅 기획팀 여력 부족 → 임시 조치 → 개발팀 5명 커버 가능한 SDD)는 일반 기업에 과할 수 있음"
+- **본질 정정**: 백엔드 개발자가 본질, SDD·ADR은 부가. 사용자 명시: "대기업·대용량 트래픽 기업은 SDD 도입 필요성을 못 느낄 수 있음. spec-kit 도입 사례(호스팅 기획팀 여력 부족 → 임시 조치 → 개발팀 5명 커버 가능한 SDD)는 일반 기업에 과할 수 있음"
 - **2026-04-28 reframe 일부 폐기**: "팀 상황 안에서의 트레이드오프와 정량 의사결정에 관심이 많은" 한 줄은 메타-역량 자기 평가 표현이라 회귀
 - **사이드 프로젝트 정책 도입**: 도구·방법론 섹션 4/4가 AI 도구라 본질과 어긋남. trip-planner는 ADR-024(결과 미완성·기획자 대체 신호) + 사용자 자기 평가 반영하여 Profile README 큐레이션에서 제외. AI 도구 3개는 부수 위치 명시
 - **주요 글 축약**: 5개 → 4개 (Expand-and-Contract는 방법론 색채라 운영 사례만 유지). 신규 블로그 포스트 3개는 블로그 자체 정리 후 재평가
@@ -118,6 +118,13 @@ Blog Repo About (메타데이터)
 - **압축 마이그레이션 반영**: 블로그 시리즈 7개를 시리즈당 신규 1편으로 압축 완료. 기존 README 주요 글 4개 중 3개가 압축 흡수로 URL 깨짐 (batch-storage-upsert-to-delete-insert / timeseries-write-contention / domain-ssl-automation-certbot-to-acme4j)
 - **신규 큐레이션**: MySQL 파티셔닝(보존) + 미터링 배치 시스템 설계(압축) + 미터링 용량 세 제약(보존, 의사결정 깊이) + 인증서 자동화(압축). 운영 사례 중심, 면접 빈출 키워드 + 의사결정 깊이 균형
 - **블로그 톤 통일**: 블로그 전체 포스트 합쇼체 통일 후속 작업 (idean3885.github.io PR #300)
+
+### 2026-06-01 Tech Stack 보강·표기 정합 사유
+
+- **Tech Stack 보강**: ArgoCD(GitOps 배포)·Prometheus(시계열 메트릭 수집) 뱃지 추가. basic.md NHN Cloud 스택에 이미 존재하는 검증 가능한 사실이며, 내러티브의 "시계열 데이터 파이프라인"·인프라 운영 사례와 직접 대응. 인프라/운영 역량 가시성 보강
+- **내러티브 유지 결정**: career-docs 측 우선순위 변화가 있었으나 공개 표면의 본질 직무 정체성(7년차 백엔드, Spring Boot·Kubernetes 운영)에는 영향 없음. 내러티브 본문 무변경. 공개 표면 이직 의도 키워드 금지 원칙 유지
+- **주요 글 큐레이션 무변경**: README 주요 글 4개 URL이 현 블로그(23편)에 모두 유효함을 대조 확인. 갱신 불필요
+- **em dash 전역 금지 정합**: career-docs ADR-037(em dash 전역 금지) + devex base SSOT tone.md T1 정합. CONTENT_ARCHITECTURE em dash 6곳을 하이픈·마침표·콜론으로 정정. README 본문은 위반 없음
 
 ## 워크플로우
 
