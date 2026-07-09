@@ -96,11 +96,11 @@ Blog Repo About (메타데이터)
 - 본업(백엔드) 외 부수 위치로 노출하고 섹션 제목·부제("백엔드 본업 외…")로 가중치를 명시 (면접관이 본업과 혼동하지 않도록)
 - 운영 중인 자산만 노출한다. trip-planner는 live 서비스(trip.idean.me, 풀스택 포트폴리오)로 전환되어 "결과 미완성" 제외 근거가 해소됨 → 개인 프로젝트에 편입
 
-## 현황 (Last Updated: 2026-07-03)
+## 현황 (Last Updated: 2026-07-09)
 
 | 표면 | 상태 | 미완료 항목 |
 |------|------|-------------|
-| GitHub Profile README | 개인 프로젝트 재편(cross-verify 제거·trip-planner 추가) + 주요 글 3개 + Tech Stack 이력서 정합 | - |
+| GitHub Profile README | 개인 프로젝트 재편(cross-verify 제거·trip-planner 추가) + 주요 글 3개 + Tech Stack 이력서 정합 + 기술 스택 뱃지를 소제목 아래 줄로 재배치(#42, 레이아웃) | - |
 | Blog Repo About | 완료 | - |
 | Blog About (홈 소개 섹션) | 주요 글 3개 평탄화(교차 검증 카드 제거) | - |
 
