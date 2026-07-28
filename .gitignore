@@ -1,0 +1,5 @@
+# 에이전트·IDE 로컬 상태 (커밋 금지)
+.idea/
+.omc/
+.ops-agent/
+.DS_Store
