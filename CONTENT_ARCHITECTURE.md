@@ -147,7 +147,7 @@ Blog Repo About (메타데이터)
 
 ### 2026-06-01 Tech Stack 보강
 
-- ArgoCD·Prometheus 뱃지 추가. basic.md NHN Cloud 스택의 검증 가능한 사실이며 내러티브의 미터링·인프라 운영과 대응
+- ArgoCD·Prometheus 뱃지 추가. basic.md 실무 스택의 검증 가능한 사실이며 내러티브의 미터링·인프라 운영과 대응
 - em dash 전역 금지 정합 (career-docs ADR-037 + tone.md T1)
 
 ### 2026-07-03 개인 프로젝트 재편·주요 글 3개·Tech Stack 이력서 정합
