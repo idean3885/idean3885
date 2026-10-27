@@ -28,6 +28,16 @@ Spring Boot·Kubernetes 기반 멀티테넌시 서비스를 개발·운영하는
 - [trip-planner](https://github.com/idean3885/trip-planner) - 자연어로 숙소·항공·활동을 검색해 여행 일정을 짜는 1인 풀스택 프로젝트
 - [claude-slack-to-notion](https://github.com/idean3885/claude-slack-to-notion) - Slack 스레드 → Notion MCP 플러그인
 
+#### 측정 랩
+
+궁금한 백엔드 동작을 직접 구성하고 재 보는 실험입니다.
+
+모아 두는 곳 → [backend-measure-labs](https://github.com/backend-measure-labs)
+
+- [grpc-vs-rest-lab](https://github.com/backend-measure-labs/grpc-vs-rest-lab) - 같은 도메인 코어에 gRPC 와 REST 를 붙여 속도를 비교
+- [spring-read-write-splitting-lab](https://github.com/backend-measure-labs/spring-read-write-splitting-lab) - Spring · JPA 읽기 분리(조회는 레플리카) 구성과 효과
+- [pinpoint-storage-outage-lab](https://github.com/backend-measure-labs/pinpoint-storage-outage-lab) - 핀포인트 서버 장애 때 에이전트를 붙인 앱에 커넥션 · 메모리가 쌓이는지 재현
+
 ### Blog
 
 주요 글은 블로그에 정리합니다 → [blog.idean.me](https://blog.idean.me)
